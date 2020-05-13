@@ -160,7 +160,9 @@ class Ora {
 
 			this._spinner = spinner;
 		} else if (process.platform === 'win32') {
-			this._spinner = cliSpinners.line;
+			// NEW FORKED MODIFICATIONS MADE HERE.
+			// this._spinner = cliSpinners.line; OLD
+			this._spinner = cliSpinners[spinner]; // NEW
 		} else if (spinner === undefined) {
 			// Set default spinner
 			this._spinner = cliSpinners.dots;
