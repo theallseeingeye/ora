@@ -1,3 +1,5 @@
+# THIS IS A MODIFIED VERSION THAT ALLOWS ADDITIONAL SYMBOLS AND EMOJIS TO WORK ON COMMANDLINE. THE ORIGINAL SCRIPT DEFAULTS IT TO LINE SPINNER FOR WINDOWS COMMAND LINE
+
 # ora [![Build Status](https://travis-ci.com/sindresorhus/ora.svg?branch=master)](https://travis-ci.com/sindresorhus/ora)
 
 > Elegant terminal spinner
